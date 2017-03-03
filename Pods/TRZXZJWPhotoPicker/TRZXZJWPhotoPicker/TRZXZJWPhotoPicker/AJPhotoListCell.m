@@ -55,7 +55,7 @@
                 
                 //icon
                 UIImageView *videoIcon = [[UIImageView alloc] initWithFrame:CGRectMake(5, self.bounds.size.height-15, 15, 8)];
-                videoIcon.image = [UIImage imageWithContentsOfFile:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"BoPhotoPicker.bundle/images/AssetsPickerVideo@2x.png"]];
+                videoIcon.image = [UIImage imageNamed:@"AssetsPickerVideo"];
                 [self.gradientView addSubview:videoIcon];
                 
                 //duration

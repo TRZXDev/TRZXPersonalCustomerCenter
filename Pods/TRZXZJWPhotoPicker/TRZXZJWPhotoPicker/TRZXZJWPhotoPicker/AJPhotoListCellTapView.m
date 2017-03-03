@@ -22,7 +22,7 @@ static UIColor *disabledColor;
 
 #pragma mark - init
 + (void)initialize {
-    checkedIcon = [UIImage imageWithContentsOfFile:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"BoPhotoPicker.bundle/images/BoAssetsPickerChecked@2x.png"]];
+    checkedIcon = [UIImage imageNamed:@"BoAssetsPickerChecked"];
     selectedColor = [UIColor colorWithWhite:1 alpha:0.3];
     disabledColor = [UIColor colorWithWhite:1 alpha:0.8];
 }

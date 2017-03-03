@@ -160,7 +160,7 @@
     
     //selectTipImageView
     UIImageView *selectTip = [[UIImageView alloc] init];
-    selectTip.image = [UIImage imageWithContentsOfFile:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"BoPhotoPicker.bundle/images/BoSelectGroup_tip@2x.png"]];
+    selectTip.image = [UIImage imageNamed:@"BoSelectGroup_tip"];
     selectTip.translatesAutoresizingMaskIntoConstraints = NO;
     [navBar addSubview:selectTip];
     self.selectTip = selectTip;
@@ -271,7 +271,7 @@
     //相机cell
     NSMutableArray *tempList = [[NSMutableArray alloc] init];
     //默认第一个为相机按钮
-    [tempList addObject:[UIImage imageWithContentsOfFile:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"BoPhotoPicker.bundle/images/BoAssetsCamera@2x.png"]]];
+    [tempList addObject:[UIImage imageNamed:@"BoAssetsCamera"]];
     
     ALAssetsGroupEnumerationResultsBlock resultsBlock = ^(ALAsset *asset, NSUInteger index, BOOL *stop) {
         if (asset) {
