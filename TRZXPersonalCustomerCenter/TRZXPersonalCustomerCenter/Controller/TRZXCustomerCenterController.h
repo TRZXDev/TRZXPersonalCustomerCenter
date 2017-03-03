@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TRZXCustomerCenterController.h
 //  TRZXPersonalCustomerCenter
 //
 //  Created by 张江威 on 2017/2/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TRZXCustomerCenterController : UIViewController
 
 @end
-

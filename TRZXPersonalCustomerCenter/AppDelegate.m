@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TRZXNetwork.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSMutableDictionary *headers = [[NSMutableDictionary alloc]init];
+    [headers setValue:@"ce9625f525b6097d3f167cc343e1e751" forKey:@"token"];
+    [headers setValue:@"ed48b2ecda7f485e9c3353ecfb53f3f5" forKey:@"userId"];
+    [headers setValue:@"iOS" forKey:@"equipment"];
+    
+    
+    [TRZXNetwork configWithBaseURL:@"http://test.mmwipo.com:8088/"];
+    [TRZXNetwork configWithNewBaseURL:@"http://test.mmwipo.com:8088/"];
+    
+    // 配置请求头
+    [TRZXNetwork configHttpHeaders:headers];
+    
     return YES;
 }
 

@@ -1,0 +1,6 @@
+framework module Pods_TRZXPersonalCustomerCenter {
+  umbrella header "Pods-TRZXPersonalCustomerCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

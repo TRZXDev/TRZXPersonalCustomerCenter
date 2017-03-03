@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AED6607C608D2246446A8B7D /* Pods_TRZXPersonalCustomerCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFE95B46C41FF9321BE2212 /* Pods_TRZXPersonalCustomerCenter.framework */; };
 		B70D46391E5FC5CD000E2C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46381E5FC5CD000E2C4D /* main.m */; };
 		B70D463C1E5FC5CD000E2C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D463B1E5FC5CD000E2C4D /* AppDelegate.m */; };
-		B70D463F1E5FC5CD000E2C4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D463E1E5FC5CD000E2C4D /* ViewController.m */; };
 		B70D46421E5FC5CD000E2C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D46401E5FC5CD000E2C4D /* Main.storyboard */; };
 		B70D46441E5FC5CD000E2C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70D46431E5FC5CD000E2C4D /* Assets.xcassets */; };
 		B70D46471E5FC5CD000E2C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D46451E5FC5CD000E2C4D /* LaunchScreen.storyboard */; };
 		B70D46521E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46511E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterTests.m */; };
 		B70D465D1E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D465C1E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterUITests.m */; };
+		B70D46A01E5FDBB5000E2C4D /* GuanYuWoMenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D468C1E5FDBB5000E2C4D /* GuanYuWoMenVC.m */; };
+		B70D46A11E5FDBB5000E2C4D /* TRZXCustomerCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D468E1E5FDBB5000E2C4D /* TRZXCustomerCenterController.m */; };
+		B70D46A21E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46901E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.m */; };
+		B70D46A31E5FDBB5000E2C4D /* PersonalModell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46931E5FDBB5000E2C4D /* PersonalModell.m */; };
+		B70D46A41E5FDBB5000E2C4D /* shangbiao.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46941E5FDBB5000E2C4D /* shangbiao.png */; };
+		B70D46A51E5FDBB5000E2C4D /* 延展@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46951E5FDBB5000E2C4D /* 延展@2x.png */; };
+		B70D46A61E5FDBB5000E2C4D /* BangZhuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46981E5FDBB5000E2C4D /* BangZhuTableViewCell.m */; };
+		B70D46A71E5FDBB5000E2C4D /* BangZhuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D46991E5FDBB5000E2C4D /* BangZhuTableViewCell.xib */; };
+		B70D46A81E5FDBB5000E2C4D /* GuanYuWoMenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D469B1E5FDBB5000E2C4D /* GuanYuWoMenCell.m */; };
+		B70D46A91E5FDBB5000E2C4D /* GuanYuWoMenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D469C1E5FDBB5000E2C4D /* GuanYuWoMenCell.xib */; };
+		B70D46AA1E5FDBB5000E2C4D /* zhinanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D469E1E5FDBB5000E2C4D /* zhinanCell.m */; };
+		B70D46AB1E5FDBB5000E2C4D /* zhinanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D469F1E5FDBB5000E2C4D /* zhinanCell.xib */; };
+		B70D46AE1E5FDC19000E2C4D /* ComplaintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46AD1E5FDC19000E2C4D /* ComplaintsViewController.m */; };
+		B70D46B51E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46B31E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m */; };
+		B70D46B61E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D46B41E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib */; };
+		B70D46B91E6016AC000E2C4D /* ComplaintsMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46B81E6016AC000E2C4D /* ComplaintsMsgViewController.m */; };
+		B70D46BB1E601788000E2C4D /* RCDComplaints_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46BA1E601788000E2C4D /* RCDComplaints_Selected.png */; };
+		B70D46E31E6022F5000E2C4D /* AlbumAddBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46E21E6022F5000E2C4D /* AlbumAddBtn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26E77BBEF650B7A7B372FEDE /* Pods-TRZXPersonalCustomerCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalCustomerCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalCustomerCenter/Pods-TRZXPersonalCustomerCenter.release.xcconfig"; sourceTree = "<group>"; };
+		6CFE95B46C41FF9321BE2212 /* Pods_TRZXPersonalCustomerCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXPersonalCustomerCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808028DA22F3AA6E44488ACF /* Pods-TRZXPersonalCustomerCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalCustomerCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalCustomerCenter/Pods-TRZXPersonalCustomerCenter.debug.xcconfig"; sourceTree = "<group>"; };
 		B70D46341E5FC5CD000E2C4D /* TRZXPersonalCustomerCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXPersonalCustomerCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70D46381E5FC5CD000E2C4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B70D463A1E5FC5CD000E2C4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B70D463B1E5FC5CD000E2C4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B70D463D1E5FC5CD000E2C4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B70D463E1E5FC5CD000E2C4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B70D46411E5FC5CD000E2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B70D46431E5FC5CD000E2C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70D46461E5FC5CD000E2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,34 @@
 		B70D46581E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXPersonalCustomerCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70D465C1E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalCustomerCenterUITests.m; sourceTree = "<group>"; };
 		B70D465E1E5FC5CD000E2C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70D468B1E5FDBB5000E2C4D /* GuanYuWoMenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanYuWoMenVC.h; sourceTree = "<group>"; };
+		B70D468C1E5FDBB5000E2C4D /* GuanYuWoMenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanYuWoMenVC.m; sourceTree = "<group>"; };
+		B70D468D1E5FDBB5000E2C4D /* TRZXCustomerCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCustomerCenterController.h; sourceTree = "<group>"; };
+		B70D468E1E5FDBB5000E2C4D /* TRZXCustomerCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCustomerCenterController.m; sourceTree = "<group>"; };
+		B70D468F1E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhiNanBangZhuCellVC.h; sourceTree = "<group>"; };
+		B70D46901E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhiNanBangZhuCellVC.m; sourceTree = "<group>"; };
+		B70D46921E5FDBB5000E2C4D /* PersonalModell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalModell.h; sourceTree = "<group>"; };
+		B70D46931E5FDBB5000E2C4D /* PersonalModell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalModell.m; sourceTree = "<group>"; };
+		B70D46941E5FDBB5000E2C4D /* shangbiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shangbiao.png; sourceTree = "<group>"; };
+		B70D46951E5FDBB5000E2C4D /* 延展@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "延展@2x.png"; sourceTree = "<group>"; };
+		B70D46971E5FDBB5000E2C4D /* BangZhuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BangZhuTableViewCell.h; sourceTree = "<group>"; };
+		B70D46981E5FDBB5000E2C4D /* BangZhuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BangZhuTableViewCell.m; sourceTree = "<group>"; };
+		B70D46991E5FDBB5000E2C4D /* BangZhuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BangZhuTableViewCell.xib; sourceTree = "<group>"; };
+		B70D469A1E5FDBB5000E2C4D /* GuanYuWoMenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanYuWoMenCell.h; sourceTree = "<group>"; };
+		B70D469B1E5FDBB5000E2C4D /* GuanYuWoMenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanYuWoMenCell.m; sourceTree = "<group>"; };
+		B70D469C1E5FDBB5000E2C4D /* GuanYuWoMenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuanYuWoMenCell.xib; sourceTree = "<group>"; };
+		B70D469D1E5FDBB5000E2C4D /* zhinanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhinanCell.h; sourceTree = "<group>"; };
+		B70D469E1E5FDBB5000E2C4D /* zhinanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhinanCell.m; sourceTree = "<group>"; };
+		B70D469F1E5FDBB5000E2C4D /* zhinanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zhinanCell.xib; sourceTree = "<group>"; };
+		B70D46AC1E5FDC19000E2C4D /* ComplaintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsViewController.h; sourceTree = "<group>"; };
+		B70D46AD1E5FDC19000E2C4D /* ComplaintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsViewController.m; sourceTree = "<group>"; };
+		B70D46B21E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsTitleTableViewCell.h; sourceTree = "<group>"; };
+		B70D46B31E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsTitleTableViewCell.m; sourceTree = "<group>"; };
+		B70D46B41E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplaintsTitleTableViewCell.xib; sourceTree = "<group>"; };
+		B70D46B71E6016AC000E2C4D /* ComplaintsMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsMsgViewController.h; sourceTree = "<group>"; };
+		B70D46B81E6016AC000E2C4D /* ComplaintsMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsMsgViewController.m; sourceTree = "<group>"; };
+		B70D46BA1E601788000E2C4D /* RCDComplaints_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCDComplaints_Selected.png; sourceTree = "<group>"; };
+		B70D46E21E6022F5000E2C4D /* AlbumAddBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumAddBtn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED6607C608D2246446A8B7D /* Pods_TRZXPersonalCustomerCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +133,8 @@
 				B70D46501E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterTests */,
 				B70D465B1E5FC5CD000E2C4D /* TRZXPersonalCustomerCenterUITests */,
 				B70D46351E5FC5CD000E2C4D /* Products */,
+				D5707E57A5694497439A1B79 /* Pods */,
+				D5B7A82A278EC329690540EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +151,9 @@
 		B70D46361E5FC5CD000E2C4D /* TRZXPersonalCustomerCenter */ = {
 			isa = PBXGroup;
 			children = (
+				B70D466A1E5FC5E7000E2C4D /* TRZXPersonalCustomerCenter */,
 				B70D463A1E5FC5CD000E2C4D /* AppDelegate.h */,
 				B70D463B1E5FC5CD000E2C4D /* AppDelegate.m */,
-				B70D463D1E5FC5CD000E2C4D /* ViewController.h */,
-				B70D463E1E5FC5CD000E2C4D /* ViewController.m */,
 				B70D46401E5FC5CD000E2C4D /* Main.storyboard */,
 				B70D46431E5FC5CD000E2C4D /* Assets.xcassets */,
 				B70D46451E5FC5CD000E2C4D /* LaunchScreen.storyboard */,
@@ -140,6 +189,82 @@
 			path = TRZXPersonalCustomerCenterUITests;
 			sourceTree = "<group>";
 		};
+		B70D466A1E5FC5E7000E2C4D /* TRZXPersonalCustomerCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B70D468A1E5FDBB5000E2C4D /* Controller */,
+				B70D46911E5FDBB5000E2C4D /* Model */,
+				B70D46961E5FDBB5000E2C4D /* Views */,
+			);
+			path = TRZXPersonalCustomerCenter;
+			sourceTree = "<group>";
+		};
+		B70D468A1E5FDBB5000E2C4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B70D468B1E5FDBB5000E2C4D /* GuanYuWoMenVC.h */,
+				B70D468C1E5FDBB5000E2C4D /* GuanYuWoMenVC.m */,
+				B70D468D1E5FDBB5000E2C4D /* TRZXCustomerCenterController.h */,
+				B70D468E1E5FDBB5000E2C4D /* TRZXCustomerCenterController.m */,
+				B70D468F1E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.h */,
+				B70D46901E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.m */,
+				B70D46AC1E5FDC19000E2C4D /* ComplaintsViewController.h */,
+				B70D46AD1E5FDC19000E2C4D /* ComplaintsViewController.m */,
+				B70D46B71E6016AC000E2C4D /* ComplaintsMsgViewController.h */,
+				B70D46B81E6016AC000E2C4D /* ComplaintsMsgViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B70D46911E5FDBB5000E2C4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B70D46BA1E601788000E2C4D /* RCDComplaints_Selected.png */,
+				B70D46921E5FDBB5000E2C4D /* PersonalModell.h */,
+				B70D46931E5FDBB5000E2C4D /* PersonalModell.m */,
+				B70D46941E5FDBB5000E2C4D /* shangbiao.png */,
+				B70D46951E5FDBB5000E2C4D /* 延展@2x.png */,
+				B70D46E21E6022F5000E2C4D /* AlbumAddBtn@2x.png */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B70D46961E5FDBB5000E2C4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B70D46B21E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.h */,
+				B70D46B31E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m */,
+				B70D46B41E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib */,
+				B70D46971E5FDBB5000E2C4D /* BangZhuTableViewCell.h */,
+				B70D46981E5FDBB5000E2C4D /* BangZhuTableViewCell.m */,
+				B70D46991E5FDBB5000E2C4D /* BangZhuTableViewCell.xib */,
+				B70D469A1E5FDBB5000E2C4D /* GuanYuWoMenCell.h */,
+				B70D469B1E5FDBB5000E2C4D /* GuanYuWoMenCell.m */,
+				B70D469C1E5FDBB5000E2C4D /* GuanYuWoMenCell.xib */,
+				B70D469D1E5FDBB5000E2C4D /* zhinanCell.h */,
+				B70D469E1E5FDBB5000E2C4D /* zhinanCell.m */,
+				B70D469F1E5FDBB5000E2C4D /* zhinanCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5707E57A5694497439A1B79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				808028DA22F3AA6E44488ACF /* Pods-TRZXPersonalCustomerCenter.debug.xcconfig */,
+				26E77BBEF650B7A7B372FEDE /* Pods-TRZXPersonalCustomerCenter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5B7A82A278EC329690540EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE95B46C41FF9321BE2212 /* Pods_TRZXPersonalCustomerCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B70D46611E5FC5CD000E2C4D /* Build configuration list for PBXNativeTarget "TRZXPersonalCustomerCenter" */;
 			buildPhases = (
+				3135C2B70CE731533D099C23 /* [CP] Check Pods Manifest.lock */,
 				B70D46301E5FC5CD000E2C4D /* Sources */,
 				B70D46311E5FC5CD000E2C4D /* Frameworks */,
 				B70D46321E5FC5CD000E2C4D /* Resources */,
+				CC5A4E94EDF729A831A9AB73 /* [CP] Embed Pods Frameworks */,
+				54A63F042779C1ADC4C88FBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +374,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70D46A41E5FDBB5000E2C4D /* shangbiao.png in Resources */,
 				B70D46471E5FC5CD000E2C4D /* LaunchScreen.storyboard in Resources */,
+				B70D46A91E5FDBB5000E2C4D /* GuanYuWoMenCell.xib in Resources */,
 				B70D46441E5FC5CD000E2C4D /* Assets.xcassets in Resources */,
 				B70D46421E5FC5CD000E2C4D /* Main.storyboard in Resources */,
+				B70D46E31E6022F5000E2C4D /* AlbumAddBtn@2x.png in Resources */,
+				B70D46A51E5FDBB5000E2C4D /* 延展@2x.png in Resources */,
+				B70D46BB1E601788000E2C4D /* RCDComplaints_Selected.png in Resources */,
+				B70D46A71E5FDBB5000E2C4D /* BangZhuTableViewCell.xib in Resources */,
+				B70D46AB1E5FDBB5000E2C4D /* zhinanCell.xib in Resources */,
+				B70D46B61E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +404,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3135C2B70CE731533D099C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54A63F042779C1ADC4C88FBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalCustomerCenter/Pods-TRZXPersonalCustomerCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5A4E94EDF729A831A9AB73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalCustomerCenter/Pods-TRZXPersonalCustomerCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B70D46301E5FC5CD000E2C4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70D463F1E5FC5CD000E2C4D /* ViewController.m in Sources */,
+				B70D46B91E6016AC000E2C4D /* ComplaintsMsgViewController.m in Sources */,
+				B70D46B51E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m in Sources */,
+				B70D46A31E5FDBB5000E2C4D /* PersonalModell.m in Sources */,
+				B70D46AA1E5FDBB5000E2C4D /* zhinanCell.m in Sources */,
+				B70D46A61E5FDBB5000E2C4D /* BangZhuTableViewCell.m in Sources */,
+				B70D46A21E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.m in Sources */,
+				B70D46A81E5FDBB5000E2C4D /* GuanYuWoMenCell.m in Sources */,
+				B70D46A11E5FDBB5000E2C4D /* TRZXCustomerCenterController.m in Sources */,
 				B70D463C1E5FC5CD000E2C4D /* AppDelegate.m in Sources */,
 				B70D46391E5FC5CD000E2C4D /* main.m in Sources */,
+				B70D46AE1E5FDC19000E2C4D /* ComplaintsViewController.m in Sources */,
+				B70D46A01E5FDBB5000E2C4D /* GuanYuWoMenVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +615,11 @@
 		};
 		B70D46621E5FC5CD000E2C4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808028DA22F3AA6E44488ACF /* Pods-TRZXPersonalCustomerCenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalCustomerCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.TRZXPersonalCustomerCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +628,11 @@
 		};
 		B70D46631E5FC5CD000E2C4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E77BBEF650B7A7B372FEDE /* Pods-TRZXPersonalCustomerCenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXPersonalCustomerCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.TRZXPersonalCustomerCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +704,7 @@
 				B70D46631E5FC5CD000E2C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70D46641E5FC5CD000E2C4D /* Build configuration list for PBXNativeTarget "TRZXPersonalCustomerCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +713,7 @@
 				B70D46661E5FC5CD000E2C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70D46671E5FC5CD000E2C4D /* Build configuration list for PBXNativeTarget "TRZXPersonalCustomerCenterUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +722,7 @@
 				B70D46691E5FC5CD000E2C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
