@@ -11,7 +11,7 @@
 
 @implementation Target_TRZXPersonalCustomerCenter
 
--(UIViewController *)Action_TRZXPersonalCustomerCentert_TRZXPersonalCustomerCenter{
+- (UIViewController *)Action_TRZXPersonalCustomerCentert_TRZXPersonalCustomerCenter:(NSDictionary *)parm{
     TRZXCustomerCenterController *CustomerCenter = [[TRZXCustomerCenterController alloc]init];
     return CustomerCenter;
 }

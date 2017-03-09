@@ -8,15 +8,15 @@
 
 #import "CTMediator+TRZXCustomerCenterController.h"
 
-NSString * const kTRZXComplaintA = @"TRZXCustomerCenterController";
+NSString * const kCustomerCenterControllerA = @"TRZXPersonalCustomerCenter";
 
-NSString * const kTRZXComplaintController          = @"TRZXCustomerCenterController_TRZXCustomerCenterController";
+NSString * const kCustomerCenterControllerAction          = @"TRZXPersonalCustomerCentert_TRZXPersonalCustomerCenter";
 
 @implementation CTMediator (TRZXCustomerCenterController)
 
 -(UIViewController *)TRZXCustomerCenterController_TRZXCustomerCenterController{
-    UIViewController *viewController = [self performTarget:kTRZXComplaintA
-                                                    action:kTRZXComplaintController
+    UIViewController *viewController = [self performTarget:kCustomerCenterControllerA
+                                                    action:kCustomerCenterControllerAction
                                                     params:nil
                                          shouldCacheTarget:NO
                                         ];

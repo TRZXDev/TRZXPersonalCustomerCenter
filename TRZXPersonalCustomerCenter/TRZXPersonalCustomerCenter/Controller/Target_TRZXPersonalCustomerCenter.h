@@ -11,7 +11,6 @@
 
 @interface Target_TRZXPersonalCustomerCenter : NSObject
 
-- (UIViewController *)Action_TRZXPersonalCustomerCentert_TRZXPersonalCustomerCenter;
-
+- (UIViewController *)Action_TRZXPersonalCustomerCentert_TRZXPersonalCustomerCenter:(NSDictionary *)parm;
 
 @end
