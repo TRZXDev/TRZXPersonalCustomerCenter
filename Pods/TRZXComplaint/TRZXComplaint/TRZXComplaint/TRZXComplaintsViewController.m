@@ -91,7 +91,9 @@
 {
     TRZXComplaintCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TRZXComplaintCell"];
     if (!cell) {
-        cell =[[[NSBundle mainBundle] loadNibNamed:@"TRZXComplaintCell" owner:self options:nil]lastObject];
+        
+        cell = [[[NSBundle bundleForClass:[self class]]loadNibNamed:@"TRZXComplaintCell" owner:self options:nil] firstObject];
+//        cell =[[[NSBundle mainBundle] loadNibNamed:@"TRZXComplaintCell" owner:self options:nil]lastObject];
         
     }
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;

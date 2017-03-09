@@ -73,8 +73,7 @@
 {
     zhinanCell *cell = [tableView dequeueReusableCellWithIdentifier:@"zhinanCell"];
     if (!cell) {
-        cell =[[[NSBundle mainBundle] loadNibNamed:@"zhinanCell" owner:self options:nil]lastObject];
-        
+        cell = [[[NSBundle bundleForClass:[self class]]loadNibNamed:@"zhinanCell" owner:self options:nil] firstObject];
     }
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
