@@ -11,7 +11,8 @@ def pods
     pod 'MJExtension'
     pod 'SDWebImage'
     pod 'TRZXKit'
-    pod 'TRZXZJWPhotoPicker'
+    pod 'TRZXComplaint'
+    pod 'CTMediator'
 
 
 end

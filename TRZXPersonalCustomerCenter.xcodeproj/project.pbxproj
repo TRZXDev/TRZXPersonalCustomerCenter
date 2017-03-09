@@ -27,12 +27,10 @@
 		B70D46A91E5FDBB5000E2C4D /* GuanYuWoMenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D469C1E5FDBB5000E2C4D /* GuanYuWoMenCell.xib */; };
 		B70D46AA1E5FDBB5000E2C4D /* zhinanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D469E1E5FDBB5000E2C4D /* zhinanCell.m */; };
 		B70D46AB1E5FDBB5000E2C4D /* zhinanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D469F1E5FDBB5000E2C4D /* zhinanCell.xib */; };
-		B70D46AE1E5FDC19000E2C4D /* ComplaintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46AD1E5FDC19000E2C4D /* ComplaintsViewController.m */; };
-		B70D46B51E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46B31E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m */; };
-		B70D46B61E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D46B41E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib */; };
-		B70D46B91E6016AC000E2C4D /* ComplaintsMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D46B81E6016AC000E2C4D /* ComplaintsMsgViewController.m */; };
 		B70D46BB1E601788000E2C4D /* RCDComplaints_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46BA1E601788000E2C4D /* RCDComplaints_Selected.png */; };
 		B70D46E31E6022F5000E2C4D /* AlbumAddBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D46E21E6022F5000E2C4D /* AlbumAddBtn@2x.png */; };
+		B71CFF6B1E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B71CFF6A1E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.m */; };
+		B71CFF6E1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71CFF6D1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,15 +87,12 @@
 		B70D469D1E5FDBB5000E2C4D /* zhinanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhinanCell.h; sourceTree = "<group>"; };
 		B70D469E1E5FDBB5000E2C4D /* zhinanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhinanCell.m; sourceTree = "<group>"; };
 		B70D469F1E5FDBB5000E2C4D /* zhinanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zhinanCell.xib; sourceTree = "<group>"; };
-		B70D46AC1E5FDC19000E2C4D /* ComplaintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsViewController.h; sourceTree = "<group>"; };
-		B70D46AD1E5FDC19000E2C4D /* ComplaintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsViewController.m; sourceTree = "<group>"; };
-		B70D46B21E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsTitleTableViewCell.h; sourceTree = "<group>"; };
-		B70D46B31E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsTitleTableViewCell.m; sourceTree = "<group>"; };
-		B70D46B41E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplaintsTitleTableViewCell.xib; sourceTree = "<group>"; };
-		B70D46B71E6016AC000E2C4D /* ComplaintsMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintsMsgViewController.h; sourceTree = "<group>"; };
-		B70D46B81E6016AC000E2C4D /* ComplaintsMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintsMsgViewController.m; sourceTree = "<group>"; };
 		B70D46BA1E601788000E2C4D /* RCDComplaints_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCDComplaints_Selected.png; sourceTree = "<group>"; };
 		B70D46E21E6022F5000E2C4D /* AlbumAddBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumAddBtn@2x.png"; sourceTree = "<group>"; };
+		B71CFF691E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXPersonalCustomerCenter.h; sourceTree = "<group>"; };
+		B71CFF6A1E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXPersonalCustomerCenter.m; sourceTree = "<group>"; };
+		B71CFF6C1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXCustomerCenterController.h"; sourceTree = "<group>"; };
+		B71CFF6D1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXCustomerCenterController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,10 +203,10 @@
 				B70D468E1E5FDBB5000E2C4D /* TRZXCustomerCenterController.m */,
 				B70D468F1E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.h */,
 				B70D46901E5FDBB5000E2C4D /* ZhiNanBangZhuCellVC.m */,
-				B70D46AC1E5FDC19000E2C4D /* ComplaintsViewController.h */,
-				B70D46AD1E5FDC19000E2C4D /* ComplaintsViewController.m */,
-				B70D46B71E6016AC000E2C4D /* ComplaintsMsgViewController.h */,
-				B70D46B81E6016AC000E2C4D /* ComplaintsMsgViewController.m */,
+				B71CFF6C1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.h */,
+				B71CFF6D1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.m */,
+				B71CFF691E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.h */,
+				B71CFF6A1E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -232,9 +227,6 @@
 		B70D46961E5FDBB5000E2C4D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B70D46B21E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.h */,
-				B70D46B31E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m */,
-				B70D46B41E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib */,
 				B70D46971E5FDBB5000E2C4D /* BangZhuTableViewCell.h */,
 				B70D46981E5FDBB5000E2C4D /* BangZhuTableViewCell.m */,
 				B70D46991E5FDBB5000E2C4D /* BangZhuTableViewCell.xib */,
@@ -384,7 +376,6 @@
 				B70D46BB1E601788000E2C4D /* RCDComplaints_Selected.png in Resources */,
 				B70D46A71E5FDBB5000E2C4D /* BangZhuTableViewCell.xib in Resources */,
 				B70D46AB1E5FDBB5000E2C4D /* zhinanCell.xib in Resources */,
-				B70D46B61E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,8 +448,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70D46B91E6016AC000E2C4D /* ComplaintsMsgViewController.m in Sources */,
-				B70D46B51E5FE01F000E2C4D /* ComplaintsTitleTableViewCell.m in Sources */,
+				B71CFF6B1E70F61800778A37 /* Target_TRZXPersonalCustomerCenter.m in Sources */,
+				B71CFF6E1E70F8F700778A37 /* CTMediator+TRZXCustomerCenterController.m in Sources */,
 				B70D46A31E5FDBB5000E2C4D /* PersonalModell.m in Sources */,
 				B70D46AA1E5FDBB5000E2C4D /* zhinanCell.m in Sources */,
 				B70D46A61E5FDBB5000E2C4D /* BangZhuTableViewCell.m in Sources */,
@@ -467,7 +458,6 @@
 				B70D46A11E5FDBB5000E2C4D /* TRZXCustomerCenterController.m in Sources */,
 				B70D463C1E5FC5CD000E2C4D /* AppDelegate.m in Sources */,
 				B70D46391E5FC5CD000E2C4D /* main.m in Sources */,
-				B70D46AE1E5FDC19000E2C4D /* ComplaintsViewController.m in Sources */,
 				B70D46A01E5FDBB5000E2C4D /* GuanYuWoMenVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

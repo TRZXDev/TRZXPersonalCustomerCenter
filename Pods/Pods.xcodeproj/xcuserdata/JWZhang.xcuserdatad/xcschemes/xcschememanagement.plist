@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CTMediator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>LCActionSheet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TRZXComplaint.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TRZXKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,7 +54,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TRZXZJWPhotoPicker.xcscheme</key>
+		<key>TZImagePickerController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,12 +67,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1550916183917E54BF7C4391410F37A7</key>
+		<key>0994652BE79F9D77B63F456284C12C85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>58B5B032FEA71F9484667CAD72CEF17E</key>
+		<key>228F96CEF694C34FE398FB9C63E544E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2404AEC1F520F682BED0D263AA1D7F37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E0C9EDE479B88F606B0441A4D24100B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,27 +92,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6739151832C83DEBF0AB470785A40C21</key>
+		<key>A06ADC73C9100600CB9F6FF7ECDE0040</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7AAC78DE15E6545AC8DAD9E45757FDDB</key>
+		<key>A70757BD2334210F4F2AF90E914AAD3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91CFB405D4DA08DBD7763DC8F88AF50C</key>
+		<key>AE69200081CCB4EF174153346B8F729E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB498242B0292917E888B1ACF4D15954</key>
+		<key>B883FDDB4A7212945D2B02C70565558F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C85489CE9DC2A1C2AE73EEC81A469621</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA505AB6942E3CE2F46B167E2F66E337</key>
 		<dict>
 			<key>primary</key>
 			<true/>

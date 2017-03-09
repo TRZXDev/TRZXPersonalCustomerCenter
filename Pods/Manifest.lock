@@ -14,34 +14,48 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CTMediator (0.0.3)
+  - LCActionSheet (2.7.2):
+    - Masonry (~> 1.0.1)
+  - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - TRZXComplaint (0.0.2):
+    - CTMediator
+    - LCActionSheet
+    - TRZXKit
+    - TRZXNetwork
+    - TZImagePickerController
   - TRZXKit (0.0.9)
   - TRZXNetwork (0.0.7):
     - AFNetworking
     - YYCache
-  - TRZXZJWPhotoPicker (0.0.4):
-    - SDWebImage
+  - TZImagePickerController (1.7.8)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
+  - CTMediator
   - MJExtension
   - SDWebImage
+  - TRZXComplaint
   - TRZXKit
   - TRZXNetwork
-  - TRZXZJWPhotoPicker
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
+  LCActionSheet: 2071dfc1834585cd7f57a234890cd0a96e4b6682
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TRZXComplaint: 6b7ffd155b4e4e9aa5e98cd0889a3e1ef86d564f
   TRZXKit: af6dc2bcca593585d079d59ca10c8912ddc81b56
   TRZXNetwork: d6ce75a420218ed4b6b95f10220442f175947125
-  TRZXZJWPhotoPicker: 84f869c75d84d33b44741aa59d408b3456814a51
+  TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: acf3112c6defa3fdee59b453fa749f03809efb87
+PODFILE CHECKSUM: 5b51f47b48c047baa81515ddc3eee652583e1beb
 
 COCOAPODS: 1.2.0
